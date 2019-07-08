@@ -63263,7 +63263,7 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("p", [
-                  _c("span", [_vm._v("+88 06987456")]),
+                  _c("span", [_vm._v("08056774653")]),
                   _vm._v(
                     " Interested in booking a room for your next trip, at this exact place? Call us now!"
                   )

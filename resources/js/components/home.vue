@@ -8,7 +8,7 @@
             <div class="welcome-text tb-cell">
               <h4 class="title">Good Service in our passion</h4>
               <h2 class="headline">book your stay</h2>
-              <p><span>+88 06987456</span> Interested in booking a room for your next trip, at this exact place? Call us now!</p>              
+              <p><span>08056774653</span> Interested in booking a room for your next trip, at this exact place? Call us now!</p>              
             </div><!--/.welcome-text-->
           </div><!--/.col-md-7-->         
         </div><!--/.row-->

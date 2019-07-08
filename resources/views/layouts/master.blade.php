@@ -9,7 +9,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'HMS') }}</title>   
+    <title>HMS</title>   
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -19,13 +19,13 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
            
     <!--================= Page Title ======================-->
-    <title>Aravira | Hotel Management System</title>
+    <title>Hotel Management System</title>
     <!--================= Favicons ========================-->
-    <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
-    <link rel="apple-touch-icon" href="{{ asset('images/apple-touch-icon.png') }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('images/apple-touch-icon_72x72.png') }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('images/apple-touch-icon_114x114.png') }}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('images/apple-touch-icon_144x144.png') }}">
+    <link rel="shortcut icon" href="{{ asset('images/logo.jpg') }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/logo.jpg') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('images/logo.jpg') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('images/logo.jpg') }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('images/logo.jpg') }}">
     <!--================= Custom Font =====================-->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7cPlayfair+Display:400,700,900" rel="stylesheet">
     <!--====== Custom CSS for themes and color schemer =======-->
@@ -46,13 +46,13 @@
                   <div class="col-md-8 hidden-xs">
                     <div class="addresses">
                       <div class="block-time"><i class="fa fa-clock-o"></i>
-                        <p>Book Time - <span>10am to 11pm</span></p>
+                        <p>Customer care - <span>10am to 8pm</span></p>
                       </div>
                       <div class="phone"><i class="fa fa-phone"></i>
-                        <p>Call Us - <span>01623 030020</span></p>
+                        <p>Call Us - <span>08056774653</span></p>
                       </div>
                       <div class="email"><i class="fa fa-envelope"></i>
-                        <p>mail@aravira.com</p>
+                        <p>computerscience@hms.com</p>
                       </div>
                     </div><!--/.addresses-->
                   </div><!--/.col-md-8-->
@@ -68,7 +68,7 @@
                   <div class="col-md-12">
                     <div class="menu-wrapper clearfix">
                       <div class="navbar-header pull-left">
-                        <div class="logo-block"><a href="index.html" class="site-logo"><img src="{{ asset('images/logo.png') }}" alt="sitelogo" class="logo"></a><!--/.site-logo--></div>
+                        <div class="logo-block"><a href="index.html" class="site-logo"><img style="width: 40px;" src="{{ asset('images/logo.jpg') }}" alt="sitelogo" class="logo"></a><!--/.site-logo--></div>
                       </div><!--/.navbar-header-->
                       <div class="collapse navbar-collapse pull-right">
                         <div class="navigation hidden-sm hidden-xs">
@@ -145,7 +145,7 @@
                 <h4 class="widget-title">address</h4>
               </div><!--/.widget-title-area-->
               <div class="widget-content">
-                <p>112/B - Road Number 08/A Obafemi Way, Ijebu-Ode, Nigeria</p>
+                <p>Computer Science, TASUED, Ijebu-Ode, Nigeria</p>
               </div>
             </aside><!--/.widget_address-->
           </div><!--/.footer-sidebar-top-1-->
@@ -157,8 +157,8 @@
                 <h4 class="widget-title">call</h4>
               </div><!--/.widget-title-area-->
               <div class="widget-content">
-                <p>+88 0215469875</p>
-                <p>666 35874692050</p>
+                <p>09067974323</p>
+                <p>08056774653</p>
               </div>
             </aside><!--/.widget_call_us-->
           </div><!--/.footer-sidebar-top-2-->
@@ -170,8 +170,7 @@
                 <h4 class="widget-title">mail</h4>
               </div><!--/.widget-title-area-->
               <div class="widget-content">
-                <p>yourmail@gmail.com</p>
-                <p>Hotelrmail@gmail.com</p>
+                <p>computerscience@hms.com</p>
               </div>
             </aside><!--/.widget_mail_us-->
           </div><!--/.footer-sidebar-top-3-->
@@ -196,7 +195,7 @@
         <div class="row">            
           <div class="col-md-12">
             <div class="copyright text-center">                           
-              <p>Copyright  2018 Avira  -  All Right Reserved</p>
+              <p>Copyright  2019 HMS  -  All Right Reserved</p>
             </div><!--/.copyright-->
           </div><!--/.copyright-->
         </div><!--/.row-->

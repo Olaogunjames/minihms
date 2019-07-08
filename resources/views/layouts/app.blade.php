@@ -7,11 +7,19 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>HMS</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
+     <!--================= Favicons ========================-->
+     <link rel="shortcut icon" href="{{ asset('images/logo.jpg') }}">
+     <link rel="apple-touch-icon" href="{{ asset('images/logo.jpg') }}">
+     <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('images/logo.jpg') }}">
+     <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('images/logo.jpg') }}">
+     <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('images/logo.jpg') }}">
+
+     
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
@@ -24,7 +32,7 @@
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    Hotel Management System
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
